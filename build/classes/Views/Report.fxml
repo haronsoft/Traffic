@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="894.0" style="-fx-background-color: #BEC1E3;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trafficsystem.Controllers.ReportUsers">
+   <children>
+      <Label alignment="CENTER" layoutX="274.0" layoutY="31.0" prefHeight="38.0" prefWidth="284.0" text="Reporting to Work" textFill="#f1ff00" underline="true">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="82.0" layoutY="99.0" prefHeight="38.0" prefWidth="119.0" text="Title :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="82.0" layoutY="155.0" prefHeight="38.0" prefWidth="119.0" text="First Name :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="82.0" layoutY="210.0" prefHeight="38.0" prefWidth="119.0" text="Last Name :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="82.0" layoutY="266.0" prefHeight="38.0" prefWidth="119.0" text="Area :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="36.0" layoutY="76.0" prefHeight="9.0" prefWidth="835.0" />
+      <TextField fx:id="title" layoutX="252.0" layoutY="99.0" prefHeight="38.0" prefWidth="183.0" />
+      <TextField fx:id="firstName" layoutX="252.0" layoutY="155.0" prefHeight="38.0" prefWidth="183.0" />
+      <TextField fx:id="lastName" layoutX="252.0" layoutY="210.0" prefHeight="38.0" prefWidth="183.0" />
+      <TextField fx:id="area" layoutX="252.0" layoutY="266.0" prefHeight="38.0" prefWidth="183.0" />
+      <Separator layoutX="472.0" layoutY="99.0" orientation="VERTICAL" prefHeight="278.0" prefWidth="13.0" />
+      <Separator layoutX="216.0" layoutY="99.0" orientation="VERTICAL" prefHeight="278.0" prefWidth="7.0" />
+      <Button fx:id="reportusers" defaultButton="true" layoutX="558.0" layoutY="279.0" mnemonicParsing="false" onAction="#reportUers" prefHeight="38.0" prefWidth="246.0" text="Report" />
+      <TextField fx:id="contacts" layoutX="654.0" layoutY="99.0" prefHeight="38.0" prefWidth="183.0" />
+      <Label alignment="CENTER" layoutX="508.0" layoutY="99.0" prefHeight="38.0" prefWidth="119.0" text="Contact :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="36.0" layoutY="407.0" prefHeight="0.0" prefWidth="835.0" />
+      <ComboBox fx:id="comboBoxDays" layoutX="654.0" layoutY="174.0" prefHeight="38.0" prefWidth="193.0" promptText="selectDay" />
+      <Label alignment="CENTER" layoutX="508.0" layoutY="174.0" prefHeight="38.0" prefWidth="119.0" text="Contact :" textFill="#0505fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
